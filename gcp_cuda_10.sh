@@ -28,3 +28,6 @@ sudo apt-get install --no-install-recommends \
 # Install TensorRT. Requires that libcudnn7 is installed above.
 sudo apt-get install -y --no-install-recommends libnvinfer5=5.1.5-1+cuda10.0 \
     libnvinfer-dev=5.1.5-1+cuda10.0
+
+export LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+
