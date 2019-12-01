@@ -80,6 +80,11 @@ sudo apt-get update && sudo apt-get install -y --no-install-recommends \
         unzip
 
 
+pip --no-cache-dir install \
+        ipykernel
+
+python -m ipykernel.kernelspec
+
 export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 
 sudo sh -c 'echo PATH=$PATH > /etc/environment'
