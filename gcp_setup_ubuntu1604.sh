@@ -83,7 +83,9 @@ sudo apt-get update && sudo apt-get install -y --no-install-recommends \
 pip --no-cache-dir install \
         ipykernel
 
-python -m ipykernel.kernelspec
+#python -m ipykernel.kernelspec
+#가상환경 설정추가 (tensorflow: 가상환경 이름)
+python -m ipykernel install --user --name tensorflow
 
 export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 
