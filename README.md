@@ -4,6 +4,7 @@
 * OS: `Ubuntu 16.04`
 * GPU: `NVIDIA K80, P100, V100`
     * CUDA: `9.0.176`
+    * CUDA: '10.0'  #추가 설치!
     * NCCL: `2.2.13`
     * CUDNN: `7.1.4.18`
 * Programs:
@@ -16,4 +17,7 @@
 ```
 wget https://raw.githubusercontent.com/jukyellow/gcp-ubuntu-gpu/master/gcp_setup_ubuntu1604.sh
 bash gcp_setup_ubuntu1604.sh
+
+wget https://raw.githubusercontent.com/jukyellow/gcp-ubuntu-gpu/master/gcp_cuda_10.sh
+bash gcp_cuda_10.sh
 ```
