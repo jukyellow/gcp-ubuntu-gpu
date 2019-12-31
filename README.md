@@ -15,9 +15,10 @@
 * Before you run this file, please check your OS __Ubuntu 16.04__.
 * You can modify this code if you want to use other OS or CUDA version.
 ```
-wget https://raw.githubusercontent.com/jukyellow/gcp-ubuntu-gpu/master/gcp_setup_ubuntu1604.sh
-bash gcp_setup_ubuntu1604.sh
-
 wget https://raw.githubusercontent.com/jukyellow/gcp-ubuntu-gpu/master/gcp_cuda_10.sh
 bash gcp_cuda_10.sh
+
+(아래 생략)
+wget https://raw.githubusercontent.com/jukyellow/gcp-ubuntu-gpu/master/gcp_setup_ubuntu1604.sh
+bash gcp_setup_ubuntu1604.sh
 ```
